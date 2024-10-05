@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form and HTML Elements</title>
+    <style>
+        h1{
+            color: rgb(11, 11, 9);
+            font-size: xx-large;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgb(189, 149, 149);
+            width: 218px;
+            background-color: rgba(184, 185, 108, 0.73);
+            margin-left: 350px;
+            border-radius: 20px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPX3oc6BgDIWyqjwVUCX1J8QtjEJVkL_vpl8dnsY02p1tM9J9lq02cnkfn4w&s);
+        }Dv
+</head>
+</style>
+<h1>Hello World</h1>
+<body>
+    <!-- Basic text formatting -->
+    <p>Hello World</p>
+    <b>Hello World</b>
+    <strong>Hello World</strong>
+    <small>Hello World</small>
+    <br />
+    <span>Hello World</span>
+
+    <!-- Headings -->
+    <h1>Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+
+    <!-- Italic and emphasized text -->
+    <i>Hello World</i><br />
+    <em>Hello World</em><br />
+    <u>Hello World</u>
+    <hr />
+
+
+    <!-- Paragraph with formatting -->
+    <p>
+        Lorem ipsum <b><u>dolor</u></b> sit, amet consectetur adipisicing elit.
+        <mark>Enim tenetur natus vitae nihil hic</mark>, praesentium in aliquid?
+        Non rerum fuga placeat quam neque doloremque magni vel, quis voluptatem,
+        sint sequi!
+    </p>
+
+    <hr />
+
+    <!-- Ordered list -->
+    <ol>
+        <li>Java Programming</li>
+        <li>Python Programming</li>
+        <li>C Programming</li>
+    </ol>
+
+    <!-- Unordered list -->
+    <ul>
+        <li>Java Programming</li>
+        <li>Python Programming</li>
+        <li>C Programming</li>
+    </ul>
+
+    <ul style="list-style-type: square;">
+        <li>Java Programming</li>
+        <li>Python Programming</li>
+        <li>C Programming</li>
+    </ul>
+
+    <hr>
+
+    <!-- Dropdown menu -->
+    <h1>Drop Down Menu</h1>
+    <select>
+        <option value="">choose any one</option>
+        <option value="C programing">C programing</option>
+        <option value="C++ programing">C++ programing</option>
+        <option value="java programing">java programing</option>
+        <option value="python programing">python programing</option>
+        <option value=".net programing">.net programing</option>
+        <option value="Ruby programing">Ruby programing</option>
+        <option value="c# programing">C# programing</option>
+
+    </select>
+    <br /><br /><br />
+
+
+    <!-- Form -->
+    <form>
+        <h3>WELCOME TO SIET</h3>
+
+
+        <label for="name">NAME :</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your Name" /><br /><br />
+
+        <label for="usn">USN :</label>
+        <input type="text" id="usn" name="usn" required placeholder="Enter your Usn" /><br /><br />
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" /><br /><br />
+
+        <label for="phone">Phone :</label>
+        <input type="tel" id="phone" name="phone" required placeholder="Enter your Phone" /><br /><br />
+
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password" required placeholder="Password" /><br /><br />
+
+        <label>Gender :</label><br />
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label><br />
+
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br />
+
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label><br /><br />
+
+        <input type="checkbox" id="terms" name="terms" />
+        <label for="terms">I agree to the terms and conditions</label><br /><br />
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
+
+
